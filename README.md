@@ -28,6 +28,7 @@ This lab procedure is adapted from and based on Ryan Miller's ["Introduction to 
 - [Additional Resources](#additional-resources)
 - [Lab Notebook Questions](#lab-notebook-questions)
 
+[Click here](https://raw.githubusercontent.com/kwaldenphd/merging-joining-rstudio/main/merging-joining-rstudio-markdown.Rmd) and select the "Save as" option to download this lab as an RMarkdown file.
 
 # Data and Environment Setup
 
@@ -46,12 +47,12 @@ library(dplyr)
 4. These are intentionally small data tables so that is easier to see how the join statements are working.
 
 ```R
-orders <- read.csv("https://raw.githubusercontent.com/kwaldenphd/main/data/orders.csv", as.is = TRUE)
+orders <- read.csv("https://raw.githubusercontent.com/kwaldenphd/merging-joining-rstudio/main/data/orders.csv", as.is = TRUE)
 orders
 ```
 
 ```R
-customers <- read.csv("https://raw.githubusercontent.com/kwaldenphd/main/data/customers.csv", as.is = TRUE)
+customers <- read.csv("https://raw.githubusercontent.com/kwaldenphd/merging-joining-rstudio/main/data/customers.csv", as.is = TRUE)
 customers
 ```
 
@@ -260,9 +261,9 @@ full_join(x = table1, y = table2, by = "key")
 i. The files `books.csv`, `authors.csv`, and `book-authors.csv` give details about a sample summer reading list. 
 
 ii. You can find the files at:
-- https://raw.githubusercontent.com/kwaldenphd/main/data/books.csv
-- https://raw.githubusercontent.com/kwaldenphd/main/data/authors.csv
-- https://raw.githubusercontent.com/kwaldenphd/main/data/book-authors.csv
+- https://raw.githubusercontent.com/kwaldenphd/merging-joining-rstudio/main/data/books.csv
+- https://raw.githubusercontent.com/kwaldenphd/merging-joining-rstudio/main/data/authors.csv
+- https://raw.githubusercontent.com/kwaldenphd/merging-joining-rstudio/main/data/book-authors.csv
 
 iii. `books.csv` provides details for each book (isbn, title, year, and genre), authors.csv provides details about each author (authorid, first name, last name, and nationality), and book-authors.csv provides the author identification (authorid) for each isbn (books with multiple authors will have multiple rows).
 
