@@ -9,6 +9,8 @@ There are many situations where data sets are broken into multiple tables, and m
 
 Note: In R, most tabular sets of data are called data frames. Data frames can store objects of different classes (e.g. some columns can be text and other columns can be integers). A synonymous term is data table, which is used by some textbooks and other languages, such as the structued query language (SQL).
 
+[Link to lab overview video](https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d201195a-b185-493e-86f6-ace100f0bc1a) (Panopto, ND users).
+
 ## Acknowledgements
 
 This lab procedure is adapted from and based on Ryan Miller's ["Introduction to Merging Data Tables in R"](https://remiller1450.github.io/s230f19/merging.html) (Fall 2019, Intro to Data Science STA 230 course, Grinnell College).
