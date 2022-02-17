@@ -284,10 +284,13 @@ viii. Are there any authors in the authors data table that do not correspond to 
 i. The `nycflights13` package contains a database of all flights departing New York City in 2013.
 
 ii. Write code that adds weather information to each record in the flights table. You should match each flight with the nearest weather recording at that airport, meaning you should use the provided code to get the hour nearest to when the flight departs.
+  * HINT: Join on `time_hour`
 
 ```R
+# install.packages("nycflights13")
 library(nycflights13)
 data("flights")
+data("weather")
 flights$nearest_hour <- round(flights$dep_time, -2)/100
 ```
 
